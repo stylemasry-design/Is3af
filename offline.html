@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>غير متصل — المنيا الصحية</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Tajawal',sans-serif;background:#0a7c6e;color:#fff;
+  min-height:100vh;display:flex;align-items:center;justify-content:center;
+  text-align:center;padding:20px}
+.wrap{max-width:360px}
+.icon{font-size:80px;margin-bottom:20px;animation:float 3s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+h1{font-size:1.6rem;font-weight:900;margin-bottom:10px}
+p{font-size:.95rem;color:rgba(255,255,255,.75);line-height:1.7;margin-bottom:28px}
+.em{background:rgba(255,255,255,.15);border-radius:14px;padding:16px;margin-bottom:24px}
+.em h3{font-size:.85rem;font-weight:900;margin-bottom:10px;color:#f0c040}
+.em-row{display:flex;align-items:center;justify-content:space-between;
+  padding:8px 0;border-bottom:1px solid rgba(255,255,255,.1);font-size:.9rem}
+.em-row:last-child{border:none}
+.em-num{font-weight:900;font-size:1.1rem;letter-spacing:1px;direction:ltr}
+a.btn{display:inline-block;background:#f0c040;color:#1a0a00;padding:12px 32px;
+  border-radius:999px;font-weight:900;font-size:.9rem;text-decoration:none;
+  transition:transform .2s}
+a.btn:active{transform:scale(.95)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="icon">📵</div>
+  <h1>لا يوجد اتصال بالإنترنت</h1>
+  <p>تحقق من اتصالك وحاول مجدداً. في حالة الطوارئ استخدم الأرقام التالية مباشرة:</p>
+  <div class="em">
+    <h3>🚨 أرقام الطوارئ — تعمل بدون إنترنت</h3>
+    <div class="em-row"><span>إسعاف وطني (مجاني)</span><a href="tel:123" class="em-num">123</a></div>
+    <div class="em-row"><span>شرطة النجدة</span><a href="tel:122" class="em-num">122</a></div>
+    <div class="em-row"><span>حماية مدنية</span><a href="tel:180" class="em-num">180</a></div>
+    <div class="em-row"><span>إسعاف المنيا</span><a href="tel:086330053" class="em-num">086330053</a></div>
+    <div class="em-row"><span>مديرية الصحة</span><a href="tel:0862300000" class="em-num">0862300000</a></div>
+  </div>
+  <a href="./index.html" class="btn">🔄 إعادة المحاولة</a>
+</div>
+</body>
+</html>
